@@ -4,6 +4,7 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center">
+
     <co.com.udistrital.seekbar.widgets.ProgressCircle
         android:id="@+id/progress_circle"
         android:layout_width="match_parent"
@@ -14,6 +15,7 @@
         app:progressColor="#BBD452"
         app:incompleteProgressColor="#D4D4D4"
         app:strokeWidth="35dp"/>
+
     <co.com.udistrital.seekbar.widgets.ProgressBar
         android:id="@+id/progress_bar"
         android:layout_margin="20dp"

@@ -22,6 +22,7 @@ public class MainActivity2 extends AppCompatActivity{
         progress.setMax(100);
         progress.setProgress(100);
 
+
         new Thread(new Runnable() {
             public void run() {
                 Log.d("ProgressBar", "Inicio del metodo run()");

@@ -48,6 +48,7 @@ public class MainActivity3 extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
+
     public void animate(View view) {
         float val = new Random().nextFloat();
         progressCircle.setProgress(val);

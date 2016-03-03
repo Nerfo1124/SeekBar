@@ -33,6 +33,7 @@
         android:layout_below="@+id/accion"
         android:layout_alignParentStart="true">
 
+
         <Button
             android:layout_width="40sp"
             android:layout_height="40sp"

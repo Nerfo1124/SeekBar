@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 texto.setTextSize(TypedValue.COMPLEX_UNIT_PX, newProgreso);
             }
         }
+
         if(v.getId() == R.id.menos) {
             progreso = seekBar.getProgress();
             if(progreso>0){

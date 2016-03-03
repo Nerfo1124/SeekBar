@@ -47,8 +47,6 @@ public class ProgressBar extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-
-
         if (clipRect == null) {
             clipRect = new RectF(0, 0, canvas.getWidth(), lineHeight);
             clipPath = new Path();

@@ -28,7 +28,6 @@ public class ProgressCircle extends View {
     private int angleGap = 4;
     private Bitmap icon;
 
-
     float mEndAngle = 1.0f;
 
     Paint progressPaint = new Paint();
